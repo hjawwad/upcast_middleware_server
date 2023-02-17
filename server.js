@@ -9,7 +9,7 @@ app.use(
   })
 );
 
-app.use(
+app.post(
   "/api",
   createProxyMiddleware({
     target: "https://upcast.work",
