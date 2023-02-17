@@ -2,7 +2,7 @@ const express = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 const cors = require("cors");
 
-const app = express().use(cors());
+const app = express();
 app.use(
   cors({
     origins: "*",
